@@ -1,10 +1,4 @@
-num = 5
-if num%2 == 0 :
-     res = '짝수'
+ss = 'Phython'
 
-else :
-     res = '홀수'
-print(res)
-
-
-# res ='짝수'if num %2 ==0 else '홀수' 3번
+for i in range(0, len(ss)) :
+    print (ss[i] + '$', end ='')

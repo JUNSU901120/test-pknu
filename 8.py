@@ -1,9 +1,9 @@
-i=1234
-sum = 0
+def myFunc(p1=1, p2=2, p3=3):
+    ret = p1 + p2 + p3
+    return ret
 
-while i <= 4567:
-    i+=1
-    if i % 444 == 0:
-        sum = sum + i
+print("매개변수 없이 호출 ==> ", myFunc())
+print("매개변수 1개 호출 ==> ", myFunc(1))
+print("매개변수 2개 호출 ==> ", myFunc(1,2))
+print("매개변수 3개 호출 ==> ", myFunc(1,2,3))
 
-print('1234부터 4567 사이의 모든 444 배수의 합은 %d입니다.' %sum)
